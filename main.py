@@ -91,7 +91,10 @@ def EditarCliente():
             data = json.load(f)
     f.close()
 
-    VisualizarClientes()    
+    for cliente in data['clientes']:
+        print("Nome:", cliente['nome'])
+        print("CPF:", cliente['cpf'])
+        print("\n---------------**---------------\n")    
 
     newData = {"clientes" : []}
     encontrado = 0
@@ -140,9 +143,3 @@ def EditarCliente():
         json.dump(newData, f, indent=2)        
     f.close()
     
-
-
-
-#AdicionarCliente('Sandra Olades', '02390076629', '18/06/1977', 'sandraolades@hotmail.com', '34999130108')
-#RemoverCliente('02390076629')
-#EditarCliente()
