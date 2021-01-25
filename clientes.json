@@ -1,0 +1,18 @@
+{
+  "clientes": [
+    {
+      "nome": "Joao de Souza",
+      "cpf": "11111111111",
+      "data de nascimento": "11/11/1999",
+      "email": "joaosouza@teste.com",
+      "tel": "11999999999"
+    },
+    {
+      "nome": "Lucas Marinho",
+      "cpf": "05566644477",
+      "data de nascimento": "15/08/1985",
+      "email": "lucas123@teste.com",
+      "tel": "21987546352"
+    }
+  ]
+}
